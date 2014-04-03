@@ -1,0 +1,4 @@
+{"amqp_address":"10.1.1.121","amqp_exchange":"raven-exchange","amqp_exchange_type":"topic",
+     "data_streams":[
+                     {"amqp_topic_key":"data.frame.wfs1","data_src_name":"WFS1 Frames Stream","stream_encoding":"png_encoded","output_file_format":{ "type":"hdf5","file_name":"wfs1frame.hdf5","hdf5_key":"data.frame.wfs1","file_loc":"/var/lib/volumes/storage/raven_data/"  }  }
+      ]}

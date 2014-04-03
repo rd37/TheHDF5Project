@@ -1,0 +1,5 @@
+{"amqp_address":"10.1.1.121","amqp_exchange":"raven-exchange","amqp_exchange_type":"topic",
+     "data_streams":[
+                     {"amqp_topic_key":"data.slope.wfs2","data_src_name":"WFS2 Slopes Stream","stream_encoding":"thrift_encoded","output_file_format":{ "type":"hdf5","file_name":"wfs5slope.hdf5","hdf5_key":"data.slope.wfs5","file_loc":"/home/admin"  }  } , 
+                     {"amqp_topic_key":"data.slope.wfs1","data_src_name":"WFS1 Slopes Stream","stream_encoding":"no_encoded","output_file_format":{ "type":"binary" ,"file_name":"test.bin","file_loc":"/home/admin"  } } 
+      ]}

@@ -1,0 +1,6 @@
+{"amqp_address":"10.1.1.121","amqp_exchange":"raven-exchange","amqp_exchange_type":"topic",
+     "data_streams":[
+                     {"amqp_topic_key":"data.slope.wfs6","data_src_name":"WFS1 Slopes Stream","stream_encoding":"audio_encoded","output_file_format":{ "type":"hdf5","file_name":"wfs1slope.hdf5","hdf5_key":"data.slope.wfs1","file_loc":"/var/lib/volumes/storage/raven_data/wfs1"  }  } , 
+                     {"amqp_topic_key":"data.slope.wfs5","data_src_name":"WFS2 Slopes Stream","stream_encoding":"audio_encoded","output_file_format":{ "type":"hdf5","file_name":"wfs2slope.hdf5","hdf5_key":"data.slope.wfs2","file_loc":"/var/lib/volumes/storage/raven_data/wfs2"  }  } ,
+                     {"amqp_topic_key":"data.slope.wfs4","data_src_name":"WFS3 Slopes Stream","stream_encoding":"audio_encoded","output_file_format":{ "type":"hdf5","file_name":"wfs3slope.hdf5","hdf5_key":"data.slope.wfs3","file_loc":"/var/lib/volumes/storage/raven_data/wfs3"  }  } 
+      ]}

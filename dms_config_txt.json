@@ -1,0 +1,4 @@
+{"amqp_address":"10.1.1.121","amqp_exchange":"raven-exchange","amqp_exchange_type":"topic",
+     "data_streams":[
+                     {"amqp_topic_key":"data.slope.wfs4","data_src_name":"WFS2 Slopes Stream","stream_encoding":"audio_encoded","output_file_format":{ "type":"text","file_name":"wfs5slope.txt","hdf5_key":"data.slope.wfs5","file_loc":"/home/admin/dms_ware"  }  }  
+      ]}
